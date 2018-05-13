@@ -1,3 +1,8 @@
+> 部署
+# 点击 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/xuiv/chisel)，[一键部署到heroku](https://heroku.com/deploy?template=https://github.com/xuiv/chisel)
+
+本地客户端执行：chisel client xxx.herokuapp.com:443 1080:socks
+
 # chisel
 
 [![GoDoc](https://godoc.org/github.com/jpillora/chisel?status.svg)](https://godoc.org/github.com/jpillora/chisel)

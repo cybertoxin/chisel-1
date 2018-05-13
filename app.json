@@ -1,0 +1,12 @@
+{
+  "name": "Start on Heroku: chisel",
+  "description": "Go Getting Started Example chisel App",
+  "keywords": [
+    "getting-started",
+    "chisel",
+    "sample",
+    "example"
+  ],
+  "website": "http://github.com/xuiv/chisel",
+  "repository": "http://github.com/xuiv/chisel"
+}
