@@ -8,7 +8,6 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/andrew-d/go-termutil"
 	"github.com/jpillora/ansi"
 	"github.com/jpillora/sizestr"
 )
@@ -45,11 +44,7 @@ var DefaultOptions = Options{
 
 func defaultColors() *Colors {
 	sizestr.ToggleCase()
-	if termutil.Isatty(os.Stdout.Fd()) {
-		return basicColors
-	} else {
-		return noColors
-	}
+	return noColors
 }
 
 func Wrap(next http.Handler) http.Handler {

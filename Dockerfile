@@ -5,7 +5,7 @@ MAINTAINER dev@jpillora.com
 # prepare go env
 ENV GOPATH /go
 ENV NAME chisel
-ENV PACKAGE github.com/jpillora/$NAME
+ENV PACKAGE github.com/xuiv/$NAME
 ENV PACKAGE_DIR $GOPATH/src/$PACKAGE
 ENV GOLANG_VERSION 1.8
 ENV GOLANG_SRC_URL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
