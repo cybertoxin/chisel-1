@@ -11,7 +11,7 @@ import (
 	"github.com/jpillora/chisel/client"
 	"github.com/jpillora/chisel/server"
 	chshare "github.com/jpillora/chisel/share"
-	// "google.golang.org/appengine"
+	"google.golang.org/appengine"
 )
 
 var help = `
@@ -59,7 +59,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, help)
 		os.Exit(1)
 	}
-	// appengine.Main()
+	appengine.Main()
 }
 
 var commonHelp = `
