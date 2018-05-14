@@ -1,7 +1,7 @@
 > 部署
 # 点击 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/xuiv/chisel)，[一键部署到heroku](https://heroku.com/deploy?template=https://github.com/xuiv/chisel)
 
-本地客户端执行：chisel client xxxx.herokuapp.com:80 1080:socks
+本地客户端执行：chisel client https://xxxx.herokuapp.com 1080:socks
 
 # chisel
 
