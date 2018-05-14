@@ -56,8 +56,9 @@ func main() {
 	case "client":
 		client(args)
 	default:
-		fmt.Fprintf(os.Stderr, help)
-		os.Exit(1)
+		//fmt.Fprintf(os.Stderr, help)
+		//os.Exit(1)
+		server(args)
 	}
 	appengine.Main()
 }
@@ -134,7 +135,7 @@ func server(args []string) {
 	authfile := flags.String("authfile", "", "")
 	auth := flags.String("auth", "", "")
 	proxy := flags.String("proxy", "", "")
-	socks5 := flags.Bool("socks5", false, "")
+	socks5 := flags.Bool("socks5", true, "")
 	pid := flags.Bool("pid", false, "")
 	verbose := flags.Bool("v", false, "")
 
