@@ -2,5 +2,8 @@
 applications:
  - buildpack: https://github.com/cloudfoundry/go-buildpack.git
    env:
-     GOVERSION: go1.10
+     GOVERSION: go1.11
      GOPACKAGENAME: github.com/xuiv/chisel
+properties:
+  logger_endpoint:
+    port: 8443
